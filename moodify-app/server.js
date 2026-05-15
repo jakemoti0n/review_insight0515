@@ -22,7 +22,7 @@ app.use('/api/analyze', analyzeRouter);
 // 정적 파일 제공 (프론트엔드 연결)
 // 브라우저에서 http://localhost:3000 으로 접속하면 client/index.html이 뜹니다.
 const path = require('path');
-app.use(express.static(path.join(__dirname, '../client')));
+app.use(express.static(path.join(__dirname, 'public')));
 
 // 서버 시작
 app.listen(PORT, () => {
