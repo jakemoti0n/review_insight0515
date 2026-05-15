@@ -2,10 +2,10 @@
   "name": "moodify-ai-server",
   "version": "1.0.0",
   "description": "Moodify AI Backend Server",
-  "main": "server.js",
+  "main": "api/index.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node --watch server.js"
+    "start": "node api/index.js",
+    "dev": "node --watch api/index.js"
   },
   "dependencies": {
     "express": "^4.19.2",
